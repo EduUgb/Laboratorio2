@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import pandas as pd
 
-#En este gráfico de pastel veremos los precios de algunos autos
+#En este gráfico de pastel veremos el numero de reseñas que tienen algunos autos
 
 #Aquí extraemos los datos del archivo csv
 df = pd.read_csv("CARS_1.csv")
