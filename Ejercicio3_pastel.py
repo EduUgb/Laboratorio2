@@ -13,7 +13,7 @@ dfTop = df.nlargest(topN, 'reviews_count')
 #Aquí escogemos las columnas que usaremos para extraer sus datos
 frec = dfTop['reviews_count']
 autos = dfTop['car_name']
-colores = ['#FF0000', '#32CD32', '#FF00F', '#1ABC9C', '#F8E231', '#FFC67D', '#0097A7', '#C7B8EA', '#FFD7BE', '#4B0082']
+colores = ['#FF0000', '#32CD32', '#FF00FF', '#1ABC9C', '#F8E231', '#FFC67D', '#0097A7', '#C7B8EA', '#FFD7BE', '#4B0082']
 
 #Creamos el gráfico circular o de pastel asignandole sus titulos respectivos
 plt.pie(frec, labels = autos, autopct='%d', colors=colores)
