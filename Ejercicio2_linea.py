@@ -18,7 +18,7 @@ fig, ax = ptl.subplots(figsize=(6, 6))
 
 
 #Se crea un grafico de barras, se le asigna un titulo general y textos en el eje Y y X
-ax.plot(names,frec,) 
+ax.plot(names,frec) 
 ax.set_title("Máximos anotadores 2023 NBA")
 ax.set_ylabel("Points")
 ax.set_xlabel("Players names")
