@@ -3,6 +3,13 @@ import pandas as pd
 
 #En este gráfico de pastel veremos el numero de reseñas que tienen algunos autos
 
+"""
+El gráfico de pastel muestra los 10 autos con más reseñas del año 2023, etiquetados con su nombre y cantidad de reseñas,
+donde el tamaño de cada sección es proporcional a la cantidad de reseñas recibidas.
+Siendo el TATA Harrier el auto con mayor número de reseñas en el dataset,
+esto como guía para la compra de un vehículo según las reseñas que tengan los modelos
+"""
+
 #Aquí extraemos los datos del archivo csv
 df = pd.read_csv("CARS_1.csv")
 

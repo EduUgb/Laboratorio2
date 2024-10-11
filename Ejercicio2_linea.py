@@ -4,6 +4,12 @@ import pandas as pd
 """
 Este grafico es para ver los jugadores que más puntos anotaron en la season 2021-2022 de la NBA
 """
+
+"""
+El sistema genera un gráfico de líneas que muestra en el eje X los nombres de los 10
+jugadores con más puntos anotados en la temporada 2022/2023 de la NBA, y en el eje Y la cantidad de puntos que lograron.
+Siendo Jason Tatum el máximo anotador con más de 2,200 puntos convertidos
+"""
 #Se cargan y leen los datos
 df = pd.read_csv("2023_nba_player_stats.csv")
 

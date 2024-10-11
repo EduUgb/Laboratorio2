@@ -4,6 +4,14 @@ import pandas as pd
 """
 El siguiente gráfico muestra un análisis de la cantidad de jugadores por equipo nominados a balón de oro 2024.
 """
+
+"""
+El Gráfico indica que algunos equipos tienen la mayor cantidad de jugadores seleccionados para el Balón de Oro 2024.
+Equipos como el Real Madrid, Manchester City o FC Barcelona pueden sobresalir,
+mostrando así su desempeños en competencias relevantes como la UEFA Champions League. 
+Además, una considerable variación en la cantidad de los nominados
+entre equipos muestra que hay una relación entre el triunfo del equipo y las nominaciones personales de sus jugadores.
+"""
 #Se cargan y leen los datos
 df = pd.read_csv("BallonDor.csv")
 frec  = df['team'].value_counts()
